@@ -54,3 +54,13 @@ for (var i=1; i <= 100; i++)
     else
         console.log(i);
 }
+
+ function drawTree(numRows) {
+  for (let i=0; i < numRows; i++) {
+    const numStars = 2 * i + 1;
+    console.log("*".repeat(numStars));
+  }
+}
+
+drawTree(4);
+
